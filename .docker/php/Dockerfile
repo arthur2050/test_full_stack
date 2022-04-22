@@ -7,6 +7,7 @@ RUN apk add --update \
     unzip \
     curl \
     nodejs \
+    git \
     yarn
 
 RUN docker-php-ext-install mysqli pdo pdo_mysql
