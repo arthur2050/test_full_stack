@@ -1,4 +1,4 @@
-# Docker Symfony 5 starter kit 
+# Docker Symfony 5.4 Test Task 
 
 This development stack includes Symfony 5/Webpack Encore, MySQL, Apache and PHP built with Docker containers using docker-compose tool.
 
@@ -12,7 +12,7 @@ This development stack includes Symfony 5/Webpack Encore, MySQL, Apache and PHP 
 ## Installation
 1. Clone the repository, build services and create/Start containers:
 ```sh
-$ git clone https://github.com/KamilKubicki/docker-symfony-5.git
+$ git clone https://github.com/arthur2050/test_full_stack.git
 $ cd docker-symfony-5
 $ docker-compose build
 $ docker-compose up -d
