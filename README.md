@@ -20,7 +20,6 @@ $ docker-compose up -d
 
 2. Visit http://127.0.0.1:8080/
 
-![Symfony 5 localhost](.doc/symfony-localhost.png)
 
 
 3. Install additional frontend dependencies and watch for changes: 
