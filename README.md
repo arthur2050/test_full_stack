@@ -38,6 +38,7 @@ docker-compose exec php php bin/console doctrine:migrations:migrate
 6. Create test user:
 
 docker-compose exec php php bin/console add-test-user
+![ENV](.doc/test_task_trouble_shooting_database.png)
 
 ## Folders structure
 
