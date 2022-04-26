@@ -38,7 +38,6 @@ docker-compose exec php php bin/console doctrine:migrations:migrate
 6. Create test user:
 
 docker-compose exec php php bin/console add-test-user
-![ENV](.doc/test_task_trouble_shooting_database.png)
 
 ## Folders structure
 
@@ -78,6 +77,7 @@ $ docker-symfony-5/.docker/php/config/docker-entrypoint.sh
 ```
 
 If connection refuse in Database pleas change name container in .env file
+![ENV](.doc/test_task_trouble_shooting_database.png)
 
 ## Commands
 
