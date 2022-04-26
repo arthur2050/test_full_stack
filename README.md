@@ -76,7 +76,7 @@ $ docker-symfony-5/.docker/php/config/Dockerfile
 $ docker-symfony-5/.docker/php/config/docker-entrypoint.sh
 ```
 
-If connection refuse in Database pleas change name container in .env file
+If connection refuse in Database please change name container in .env file
 ![ENV](.doc/test_task_trouble_shooting_database.png)
 
 ## Commands
