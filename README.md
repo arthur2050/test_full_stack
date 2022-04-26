@@ -20,8 +20,6 @@ $ docker-compose up -d
 
 2. Visit http://127.0.0.1:8080/
 
-
-
 3. Install additional frontend dependencies and watch for changes: 
 ```sh
 $ docker-compose exec php yarn
@@ -32,6 +30,14 @@ $ docker-compose exec php yarn watch
 
 ![Docker Images](.doc/docker-images.png)
 ![Docker Containers](.doc/docker-containers.png)
+
+5. Make migrations:
+
+docker-compose exec php php bin/console doctrine:migrations:migrate
+
+6. Create test user:
+
+docker-compose exec php php bin/console add-test-user
 
 ## Folders structure
 
@@ -69,6 +75,8 @@ $ cd docker-symfony-5/.docker/php/config/
 $ docker-symfony-5/.docker/php/config/Dockerfile
 $ docker-symfony-5/.docker/php/config/docker-entrypoint.sh
 ```
+
+If connection refuse in Database pleas change name container in .env file
 
 ## Commands
 
