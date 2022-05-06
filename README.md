@@ -13,7 +13,7 @@ This development stack includes Symfony 5/Webpack Encore, MySQL, Apache and PHP 
 1. Clone the repository, build services and create/Start containers:
 ```sh
 $ git clone https://github.com/arthur2050/test_full_stack.git
-$ cd docker-symfony-5
+$ cd test_full_stack
 $ docker-compose build
 $ docker-compose up -d
 ```
